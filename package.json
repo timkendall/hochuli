@@ -1,7 +1,7 @@
 {
   "name": "hochuli",
   "version": "1.0.0-beta.1",
-  "description": "JavaScript library for handling your release and business toggles.",
+  "description": "Opinionated JavaScript library for handling feature flags.",
   "main": "dist/hochuli.js",
   "module": "src/index.js",
   "jsnext:main": "src/index.js",

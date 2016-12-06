@@ -1,6 +1,6 @@
 # Hochuli
 
-[![Build Status](https://travis-ci.com/timkendall/hochuli.svg?token=86Dcn7GJRCdqgaxxurs4&branch=master)](https://travis-ci.com/timkendall/hochuli)
+[![Build Status](https://travis-ci.org/timkendall/hochuli.svg?branch=master)](https://travis-ci.org/timkendall/hochuli)
 
 JavaScript library for handling your release and business toggles. Below is a description of the two ways you should think of your toggles (i.e feature flags + rules).
 
