@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/timkendall/hochuli.svg?branch=master)](https://travis-ci.org/timkendall/hochuli)
 
-JavaScript library for handling your release and business toggles. Below is a description of the two ways you should think of your toggles (i.e feature flags + rules).
+Hochuli is a module for managing toggleable features in your applications. It works around the concepts of **release** and **business** toggles. It's a good idea to familiarize yourself with these concepts [here](docs/best-practices.md). Named after the famed [Ed Hochuli](https://www.youtube.com/watch?v=lYq1zX1Gtoo).
 
 
 ## Installation
