@@ -1,8 +1,10 @@
-# Hochuli
+# Hochuli 
 
 [![Build Status](https://travis-ci.org/timkendall/hochuli.svg?branch=master)](https://travis-ci.org/timkendall/hochuli)
 
-Hochuli is a module for managing toggleable features in your applications. It works around the concepts of **release** and **business** toggles. It's a good idea to familiarize yourself with these concepts [here](docs/best-practices.md). Named after the famed [Ed Hochuli](https://www.youtube.com/watch?v=lYq1zX1Gtoo).
+*Hochuli - "The strongest toggle library in the world."* 
+
+Hochuli is a module for managing features in your applications. It helps facilitate [Trunk Based Development](http://paulhammant.com/2013/04/05/what-is-trunk-based-development/) by defining the concepts of **release** and **business** toggles. It's a good idea to familiarize yourself with these concepts [here](docs/best-practices.md). Named after the famed [Ed Hochuli](https://www.youtube.com/watch?v=lYq1zX1Gtoo).
 
 
 ## Installation
@@ -16,7 +18,7 @@ Features are defined in two categories, **release** or **business**.
 - [`new Hochuli(options)`](#class)
 - [`rules()`](#rules)
 - [`release()`](#release)
-- [`buisness()`](#business)
+- [`business()`](#business)
 - [`feature()`](#feature)
 - [`sync()`](#sync)
 - [`getState()`](#get-state)
