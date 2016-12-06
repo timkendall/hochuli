@@ -1,0 +1,42 @@
+[
+  {
+    "feature_id": "smart_deposit_balance_check",
+    "rule_id": "developers_qa"
+  },
+  {
+    "feature_id": "auto_eligible_by_offer_system",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "business_toggle_test",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "use_cta_user_attribution_from_campaign",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "pending_account_summary",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "auto_invest_made_notification",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "synchronize_finance_accounts",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "referral_email",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "referral_push_notification",
+    "rule_id": "on"
+  },
+  {
+    "feature_id": "notify_about_monitored_institution_error",
+    "rule_id": "on"
+  }
+]

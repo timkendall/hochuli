@@ -1,0 +1,74 @@
+{
+  "name": "hochuli",
+  "version": "1.0.0-beta.1",
+  "description": "JavaScript library for handling your release and business toggles.",
+  "main": "dist/hochuli.js",
+  "module": "src/index.js",
+  "jsnext:main": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "BABEL_DISABLE_CACHE=1 PWD=$(pwd) NODE_ENV=test ava",
+    "test:debug": "DEBUG=hochuli npm test",
+    "test:watch": "npm test -- --watch",
+    "build": "webpack src/index.js dist/hochuli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkendall/hochuli.git"
+  },
+  "keywords": [
+    "togl",
+    "togls",
+    "toggles",
+    "feature",
+    "flags",
+    "togles",
+    "flags",
+    "release",
+    "business"
+  ],
+  "author": "Tim Kendall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timkendall/hochuli/issues"
+  },
+  "homepage": "https://github.com/timkendall/hochuli#readme",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-plugin-module-resolver": "^2.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "browser-env": "^2.0.11",
+    "nock": "^8.0.0",
+    "redux-mock-store": "^1.2.1"
+  },
+  "ava": {
+    "verbose": true,
+    "require": [
+      "babel-register",
+      "./tests/helpers/pwd.js",
+      "./tests/helpers/setup-browser-env.js"
+    ],
+    "babel": "inherit"
+  },
+  "dependencies": {
+    "axios": "^0.15.1",
+    "clone": "^1.0.2",
+    "crc-32": "^0.4.1",
+    "debug": "^2.2.0",
+    "redux": "^3.5.2"
+  },
+  "npmName": "hochuli",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
+}

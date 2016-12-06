@@ -1,0 +1,61 @@
+[
+  {
+    "id": "off",
+    "type": "boolean",
+    "initialization_data": false,
+    "target_type": "none"
+  },
+  {
+    "id": "on",
+    "type": "boolean",
+    "initialization_data": true,
+    "target_type": "none"
+  },
+  {
+    "id": "alpha_group",
+    "type": "composite_or",
+    "initialization_data": [
+      "alpha_emails"
+    ],
+    "target_type": "user_email"
+  },
+  {
+    "id": "alpha_emails",
+    "type": "group",
+    "initialization_data": [
+      "bob@example.com",
+      "cindy@example.com",
+      "hook@example.com"
+    ],
+    "target_type": "user_email"
+  },
+  {
+    "id": "alpha_two_emails",
+    "type": "group",
+    "initialization_data": [
+      "bob@example.com",
+      "cindy@example.com",
+      "hook@example.com"
+    ],
+    "target_type": "user_email"
+  },
+  {
+    "id": "developers_qa",
+    "type": "group",
+    "initialization_data": [
+      "5c6ad8cf-c55b-427d-99d4-9d459273c00c",
+      "ca0g0d9c-dfe8-4b34-8612-19d51f701685",
+      "9b44fde2-2d4c-163d-057s-4fb1gdcd8c13"
+    ],
+    "target_type": "user_uuid"
+  },
+  {
+    "id": "internal_employees_qa",
+    "type": "composite_or",
+    "initialization_data": [
+      "developers_qa",
+      "employees_not_developers_qa"
+    ],
+    "target_type": "user_uuid"
+  }
+]
