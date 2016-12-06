@@ -22,7 +22,7 @@ Features are defined in two categories, **release** or **business**.
 - [`getState()`](#get-state)
 
 ```js
-import { Hochuli } from 'hochuli'
+import Hochuli from 'hochuli'
 
 // Create a Toggles instance
 const Toggles = new Hochuli({
