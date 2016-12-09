@@ -27,7 +27,7 @@ Features are defined in two categories, **release** or **business**.
 import Hochuli from 'hochuli'
 
 // Create a Toggles instance
-const Toggles = new Hochuli({
+const Toggles = new Hochuli.default({
   applicationID: 'my-test-app'
 })
 
